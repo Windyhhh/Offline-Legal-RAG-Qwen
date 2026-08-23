@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyCharm
+.idea/
+*.swp
+*.swo
+*~
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.log.
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.benchmarks/
+*.cover
+
+# Production
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Model files
+models/
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pb
+*.h5
+
+# Vector database
+chroma_db/
+*.chroma
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Documentation
+*.rst
+*.md
+*.pdf
+*.html
+
+# Local docs
+legal_docs/
+
+# Windows
+*.bat
+*.cmd
+*.ps1
+*.psm1
+
+# Linux/macOS
+*.sh
+*.bash
+*.zsh
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+*.idea/
+
+# Package manager
+*.lock
+pyproject.toml
+poetry.lock
+
+# Distributed training
+*.rank
+*.world_size
+*.local_rank
+
+# CUDA
+*.cu
+*.cuh
+*.nvcc.log
+*.cuda-version
+
+# TensorBoard
+runs/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# Git
+.git/
+*.gitkeep
