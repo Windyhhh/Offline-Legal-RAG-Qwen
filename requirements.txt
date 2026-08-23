@@ -1,0 +1,26 @@
+# Core LangChain 0.2.x stack (avoid langchain-huggingface 1.x to prevent core>=1.0 pull-in)
+langchain==0.2.14
+langchain-core>=0.2,<0.3
+langchain-community==0.2.12
+langchain-text-splitters>=0.2,<0.3
+
+# Vector database
+chromadb==0.5.14
+
+# Models and inference
+transformers>=4.38,<5
+accelerate>=0.27,<1
+# bitsandbytes is optional on Windows. If installation fails, the app will fall back to loading pre-quantized weights.
+bitsandbytes>=0.43.1; platform_system != "Windows"
+
+# Embeddings (we use langchain_community.embeddings or LocalHFEmbedding fallback)
+sentence-transformers>=2.6.1
+
+# UI
+gradio>=4.41,<5
+
+# Utilities
+numpy>=1.24
+tqdm>=4.66
+pydantic<3
+
