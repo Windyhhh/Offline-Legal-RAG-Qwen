@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚖️ Offline-Legal-RAG-Qwen
+# 离线法律 RAG 问答 | Offline-Legal-RAG-Qwen
 
 ### Offline legal Q&A with RAG on Qwen-7B.
 
